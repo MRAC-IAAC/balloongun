@@ -106,9 +106,10 @@ In experimenting with new tools and mediums, the group learned the complexity of
 
 
 ## Authors
-  - [sashakraeva](insert linkedin/webpage link) - teammember
-  - [LaurenD66](insert linkedin/webpage link) - teammember
-  - [Mauweberla](insert linkedin/webpage link) - teammember
+  - [sashakraeva](https://github.com/sashakraeva) - teammember
+  - [LaurenD66](https://github.com/LaurenD66) - teammember
+  - [Mauweberla]([insert linkedin/webpage link](https://github.com/Mauweberla)) - teammember
+  - [leeeeeeeeeerichileeeeeeeeee]() - teammember
 
 <!--  DO NOT REMOVE
 -->
