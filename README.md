@@ -6,13 +6,13 @@
   - [Authors](#authors)
 
 ## MRAC01(24/25): Hardware I - BalloonGun  
-# TODO: Add faculty
+TODO: Add faculty
 The Hardware Module 01 is intended to give an overview of the state of the art in robotic actuation, discussing the practical implementation of such actuators, and brainstorm how these actuators and the robotic arms could bring new levels of versatility, agility and efficiency to the production and construction processes.
 
-# TODO: The actuator selection was open, but if you do want to say that they were from a specific lecture mention which exactly they are
+TODO: The actuator selection was open, but if you do want to say that they were from a specific lecture mention which exactly they are
 Over the course of three weeks, each group is tasked to create an transparent acrylic end-effector tool to be installed on the ABB arm robot using the actuators shown within the intro lecture. Concurrently, the 2nd Studio Module invites these groups to employ the end effector and ABB robotic arm mechanism to develop a “spill” of acrylic pigment onto canvas, exploring some aspect of the properties of the developed mechanism as an evolution from a more manual task.
 
-# TODO: If you want to list the skills from the syllabus, better to list the specific things you demonstrate with your project
+TODO: If you want to list the skills from the syllabus, better to list the specific things you demonstrate with your project
 At the courses’ conclusion, skills developed include: 
 Programming using the Python or C# language
 Using of microcontrollers
@@ -26,12 +26,12 @@ Analysis of unpredicted results in design
 
 ## Overview
 
-# TODO: Add pictures and Inspiration
-# TODO: It would be great to add a gif of your end effector in action here
+TODO: Add pictures and Inspiration
+TODO: It would be great to add a gif of your end effector in action here
 
 In attempting to make a “spill” composition, our group focused on the mark made when a balloon full of liquid is popped. Typically, a manually popped balloon will a highly-variable, chaotic-looking splatter. With the precision of Arduino end-effector and ABB robotic arm, variables like pressure may be controlled to yield a more consistent outcome for each popped balloon. The following study examines a series of semi-automated splatters to seek underlying order in the otherwise chaotic marks.
 
-# TODO: Expand on the engineering approach of your tests (how you measure variables, how and why you change parameters, how many tests, why you chose what etc) Maybe include some pictures
+TODO: Expand on the engineering approach of your tests (how you measure variables, how and why you change parameters, how many tests, why you chose what etc) Maybe include some pictures
 
 Variable Tested:
 * Pressure / Volume of balloon
@@ -47,17 +47,17 @@ Variables Measured:
 
 ### Prerequisites
 
-# TODO: Include the robot setup as well (ABB+Controller) and describe how you interface with the robot. If a similar setup could be used with other robots too, mention what is needed/how you can tweak the project (if applicable)
+TODO: Include the robot setup as well (ABB+Controller) and describe how you interface with the robot. If a similar setup could be used with other robots too, mention what is needed/how you can tweak the project (if applicable)
 
-* Arduino # TODO: What is Arduino here? Arduino board, Arduino IDE, ...?
+* Arduino TODO: What is Arduino here? Arduino board, Arduino IDE, ...?
 * Rhino + Grashopper 
 
 ### Depencies 
-The project's dependencies include: # TODO: Are these the prerequisites? What is different from the section above?
+The project's dependencies include: TODO: Are these the prerequisites? What is different from the section above?
 * Arduino - end-effector controll
 * Rhino + Grashopper - robotic arm controll
 
-# TODO: If someone wanted to reproduce your work, what is the list of hardware they would need? Add a schematic.
+TODO: If someone wanted to reproduce your work, what is the list of hardware they would need? Add a schematic.
 
 ### Fabrication & Run
 With initial observations, we sought to develop a tool that may better control the pressure in the balloon and where the balloon is popped as well as the balloon height.
@@ -67,7 +67,7 @@ Design development integrated the air supply to the the acrylic housing, and the
 
 An elbow is added to the end effector to properly orient it to the robot arm and the canvas. Space is created to accommodate radially symmetrical solenoids intended to activate in unison to ensure popping of the balloon with minimum xy sway. A rigid frame is added to contain variability in the balloon’s inflation shape and further brace the balloon from sway.
 
-# TODO: Generally in this '##Getting started' section you can add some pictures/media as you see fit to better document
+TODO: Generally in this '##Getting started' section you can add some pictures/media as you see fit to better document
 
 ### Toolpath Concept:
 The robotic arm toolpath is intended to ensure consistency in the heights of each balloon pop. A grid is configured over the canvas with pre-programmed heights assigned to each x-y coordinate. Using Grasshopper software, the robot is programmed to begin and return to the “homing position” between each balloon pop to have the next balloon filled with pigment solution manually loaded off canvas. Three heights were used in 9 locations to ensure comparisons between same and variables heights.
@@ -80,7 +80,7 @@ The robotic arm toolpath is intended to ensure consistency in the heights of eac
 
 ## Demo
 
-# TODO: Since you have uploaded the relevant files, explain what each one does and which part of the 'Getting started' section they represent. Then explain step by step how could someone reproduce the project
+TODO: Since you have uploaded the relevant files, explain what each one does and which part of the 'Getting started' section they represent. Then explain step by step how could someone reproduce the project
 
 The project can:
 * Manually infill the balloon with paint
@@ -119,14 +119,15 @@ Amount + liquidity of pigment solution
 
 Splatter Size / Diameter 
 
-# TODO: Picture?
+TODO: Picture?
 
 ## Conclusion.
 
 In experimenting with new tools and mediums, the group learned the complexity of the anatomy of the machine and its vulnerability to both intended and unforeseen variables. With continued practice and interaction with the hardware design and Arduino, the group intends to increase the ability to control variables and outcomes, reducing chaos for chaotic processes.
 
 
-## Authors # TODO: I suggest you add your names in the brackets [] instead of your github handles for better visibility. If you prefer you can link to your linkedin or personal website
+## Authors 
+TODO: I suggest you add your names in the brackets [] instead of your github handles for better visibility. If you prefer you can link to your linkedin or personal website
   - [sashakraeva](https://github.com/sashakraeva) - teammember
   - [LaurenD66](https://github.com/LaurenD66) - teammember
   - [Mauweberla](https://github.com/Mauweberla) - teammember
