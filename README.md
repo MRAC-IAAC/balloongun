@@ -20,8 +20,9 @@ Programming movements by a robotic arm
 Arduino and laser cutting
 Analysis of unpredicted results in design
 
-
 ## Overview
+
+![01](https://github.com/user-attachments/assets/0e420920-b48e-4844-830d-2a0771106fd8)
 In attempting to make a “spill” composition, our group focused on the mark made when a balloon full of liquid is popped. Typically, a manually popped balloon will a highly-variable, chaotic-looking splatter. With the precision of Arduino end-effector and ABB robotic arm, variables like pressure may be controlled to yield a more consistent outcome for each popped balloon. The following study examines a series of semi-automated splatters to seek underlying order in the otherwise chaotic marks.
 
 Variable Tested:
@@ -33,7 +34,7 @@ Variables Measured:
 * Splatter Size
 * Diameter
 * Initial Data + Observations
-
+![02 initial ](https://github.com/user-attachments/assets/d99b096d-df6a-4e4c-aafb-91e7a3628ad4)
 ## Getting Started
 
 ### Prerequisites
@@ -45,17 +46,26 @@ The project's dependencies include:
 * Arduino - end-effector controll
 * Rhino + Grashopper - robotic arm controll
 
-
 ### Fabrication & Run
 With initial observations, we sought to develop a tool that may better control the pressure in the balloon and where the balloon is popped as well as the balloon height.
+
+![03 end effector](https://github.com/user-attachments/assets/99e85de8-3b72-4b45-aef2-6f2204515c27)
+
 Design development integrated the air supply to the the acrylic housing, and the housing to the ABB robotic arm mount.
 
 Incorporation of the Arduino System.
 
+![05 pseudocode](https://github.com/user-attachments/assets/300021df-57bd-45d1-b5eb-e2fd8d512e9a)
+
+![04 arduino](https://github.com/user-attachments/assets/bcf01fe3-4c51-426d-802d-0f53fc4ff1ee)
+
 An elbow is added to the end effector to properly orient it to the robot arm and the canvas. Space is created to accommodate radially symmetrical solenoids intended to activate in unison to ensure popping of the balloon with minimum xy sway. A rigid frame is added to contain variability in the balloon’s inflation shape and further brace the balloon from sway.
+![09 acon](https://github.com/user-attachments/assets/616b65ec-8ab1-4f12-a044-34f2690f3842)
 
 Toolpath Concept:
 The robotic arm toolpath is intended to ensure consistency in the heights of each balloon pop. A grid is configured over the canvas with pre-programmed heights assigned to each x-y coordinate. Using Grasshopper software, the robot is programmed to begin and return to the “homing position” between each balloon pop to have the next balloon filled with pigment solution manually loaded off canvas. Three heights were used in 9 locations to ensure comparisons between same and variables heights.
+
+![06 toolpath](https://github.com/user-attachments/assets/105f2176-6f2f-4e26-9d2c-37ceb24b2dd8)
 
 * Develop a grashopper tool path for the robotic arm movement
 * Open the arduino file and adjust the balloon inflating time if needed
@@ -90,9 +100,10 @@ Balloon shape changed drastically depending on the source of the pressure (ABB o
 After repeated trials, the solenoids succumbed to the voltage, ultimately, burning out and requiring the end effector to be modified with longer, more angular needle configuration.
 Changing the balloon size enabled more capacity for paint solution to be used.
 Using the ABB air pressure was much more powerful than the Arduino air pump, creating more of a mist than a spill or splatter.
-Adding water to the solution enables more of a splatter than a mist, however,  upon impact, the canvas absorbed the moisture from the more watery solution than the trials done with paper, creating a less defined splatter and obscuring the initial results. 
-Variables Tested.
+Adding water to the solution enables more of a splatter than a mist, however,  upon impact, the canvas absorbed the moisture from the more watery solution than the trials done with paper, creating a less defined splatter and obscuring the initial results.
+![08 diagram](https://github.com/user-attachments/assets/e2166882-e1c3-4ebf-b973-82c553181a57)
 
+Variables Tested.
 Volume of balloon.
 Height of balloon when popped.
 Amount + liquidity of pigment solution
@@ -100,6 +111,8 @@ Amount + liquidity of pigment solution
 ## Results Measured.
 
 Splatter Size / Diameter
+![07 diagram](https://github.com/user-attachments/assets/4043f33a-c51c-47e3-8a5a-ea364b7a040c)
+
 Conclusion.
 
 In experimenting with new tools and mediums, the group learned the complexity of the anatomy of the machine and its vulnerability to both intended and unforeseen variables. With continued practice and interaction with the hardware design and Arduino, the group intends to increase the ability to control variables and outcomes, reducing chaos for chaotic processes.
